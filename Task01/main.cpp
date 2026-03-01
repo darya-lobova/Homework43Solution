@@ -15,6 +15,11 @@ int main() {
 		cin >> array[i];
 	}
 
+	bool result = is_vector_unique(array, length);
+
+	string msg = result ? "All elements are unique" : "Elements are not unique";
+
+	print(msg);
 
 	return 0;
 }
