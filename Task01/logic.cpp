@@ -14,7 +14,7 @@ bool is_vector_unique(int array[DEFAULT_SIZE], int length) {
 					break;
 				}
 		}
-		if (!result)break;
+		
 	}
 
 
